@@ -1,0 +1,90 @@
+* {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0 12px;
+      }
+
+      .container{
+            max-width: 1400px;
+            width: 100%;
+            padding-left: 60px;
+            padding-left: 60px;
+            margin: 0 auto;
+        }
+
+      #Header {
+        width: 100%;
+        max-width: 1359px;
+        height: 64px;
+        border: 2px solid #37475e;
+        border-radius: 15px;
+        display: flex;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 8px auto 0;
+      }
+
+      .logo{
+
+        display: block;
+        width: 50px;
+        height: 50px;
+      }
+
+      .menu {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+
+      .menu ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+
+      .menu ul li:last-child {
+        border-left: none;
+      }
+
+      li {
+        list-style: none;
+        padding: 0 20px;
+        border-left: 2px solid #98a7ba;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .menu ul li a {
+        font-size: 16px;
+        font-family: yekan bakh;
+        color: #091222;
+      }
+
+         .btn-p{
+            font-family: yekan bakh;
+            border: none;
+            padding: 9px 18px;
+            border-radius: 7px;
+            font-size: 16px;
+            margin-left: 12px;
+            background-color: #3FBDFC;
+        }
+        
+        .main{  
+            background-color: aquamarine;
+            width: 100%;
+        }
+
+        .footer{
+
+            background-color: red;
+            width: 100%;
+        }
