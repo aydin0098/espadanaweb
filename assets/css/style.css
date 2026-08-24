@@ -103,7 +103,7 @@ a {
   width: 45%;
   max-width: 420px;
   height: auto;
-   transform: translateX(-20px);
+  transform: translateX(-20px);
 }
 
 .content-slider {
@@ -154,7 +154,6 @@ a {
   font-size: 16px;
   color: #091222;
   cursor: pointer;
-  
 }
 
 .btn-Services {
