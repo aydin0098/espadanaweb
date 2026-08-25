@@ -170,41 +170,51 @@ a {
 }
 
 #Statistics {
-  background-color: floralwhite;
+  width: 100%;
+  height: 150px;
   border: 2px solid #98a7ba;
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  padding: 10px 35px;
+  align-items: center;
+  padding: 0 35px;
   margin-top: 30px;
 }
 
-.stat-items {
+.stat-item {
+  width: 25%;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 125px;
-  border-left: 2px solid #98a7ba;
+  justify-content: center ;
+  padding: 0 20px;
+  border-left: 1px solid #c5ced8  ;
 }
 
-.stat-items:last-child {
+.stat-item:last-child {
   border-left: none;
 }
 
-.stat-numbers {
-  font-family: yekan bakh;
-  font-size: 25px;
+.stat-number{
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
   color: #29be53;
 }
 
-.stat-items:nth-child(2) .stat-numbers,
-.stat-items:nth-child(3) .stat-numbers {
+.stat-item:nth-child(2) .stat-number,
+.stat-item:nth-child(3) .stat-number {
   color: #3fbdfc;
 }
 
 .stat-txt {
-  font-family: yekan bakh;
-  font-size: 15px;
+  font-family: inherit;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: 1;
   color: #37475e;
 }
 
