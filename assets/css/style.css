@@ -170,7 +170,6 @@ a {
 }
 
 #Statistics {
-  background-color: floralwhite;
   border: 2px solid #98a7ba;
   border-radius: 15px;
   display: flex;
@@ -206,6 +205,45 @@ a {
   font-family: yekan bakh;
   font-size: 15px;
   color: #37475e;
+}
+
+.srv-heading{
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.srv-heading::before,
+.srv-heading::after{
+  content: '';
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 1px;
+  flex: 1;
+  background-color: #98a7ba;
+}
+
+.Services-cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.srv-card{
+  border: 2px solid #98a7ba;
+  border-radius: 10px;
+  max-width: 200px;
+  text-align: center;
+  margin-top: 60px;
+  
+}
+
+.srv-icon{
+  width: 150px;
+  height: 144px;
+  margin-top: -80px;
 }
 
 .footer {
