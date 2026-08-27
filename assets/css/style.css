@@ -138,7 +138,6 @@ a {
 #main-slider {
   width: 100%;
   min-height: 430px;
-  border: 2px solid #98a7ba;
   border-radius: 15px;
   padding-right: 20px;
   padding-left: 20px;
@@ -150,9 +149,9 @@ a {
 
 #main-slider > img {
   width: 45%;
-  max-width: 420px;
+  max-width: 520px;
   height: auto;
-  transform: translateX(-70px);
+  /* transform: rotateY(180deg) */
 }
 
 .content-slider {
